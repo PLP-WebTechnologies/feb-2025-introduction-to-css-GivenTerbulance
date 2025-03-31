@@ -1,0 +1,76 @@
+/* Apply general styling to the body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: lightgray;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Style the main heading */
+h1 {
+    color: black;
+    font-size: 28px;
+    text-transform: uppercase;
+    border-bottom: 3px solid blue;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+/* Container for layout */
+.container {
+    background-color: white;
+    padding: 20px;
+    margin: 20px auto;
+    width: 80%;
+    max-width: 800px;
+    box-shadow: 0px 4px 8px gray;
+    border-radius: 10px;
+}
+
+/* Style for images */
+img {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    border-radius: 8px;
+    border: 3px solid blue;
+    margin-top: 10px;
+}
+
+/* Styling the contact table */
+#contact-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+/* Style table headers and cells */
+#contact-table th, #contact-table td {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: left;
+}
+
+#contact-table th {
+    background-color: blue;
+    color: white;
+}
+
+/* Form styling */
+form {
+    background: white;
+    padding: 20px;
+    border-radius: 5px;
+    width: 60%;
+    margin: auto;
+}
+
+/* Style input fields */
+input, select {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
